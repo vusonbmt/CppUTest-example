@@ -20,7 +20,7 @@ return (a * b);
 }
 
 // Using a macro for addition
-#define ADD(a, b) ((a) + (b))
+#define ADD(a, b) (((a)) + ((b)))
 
 // Using an inline function for addition
 inline int inline_sum(int a, int b) {
