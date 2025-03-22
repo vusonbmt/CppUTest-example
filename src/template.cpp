@@ -28,6 +28,6 @@ inline int inline_sum(int a, int b) {
 }
 
 // C++ specific: Using constexpr for compile-time evaluation
-constexpr int constexpr_sum(int a, int b) {
+constexpr int constexpr_sum(const int a, const int b) {
   return (a + b);
 }
