@@ -26,3 +26,8 @@ int my_product(int a, int b) {
 inline int inline_sum(int a, int b) {
   return (a + b);
 }
+
+// C++ specific: Using constexpr for compile-time evaluation
+constexpr int constexpr_sum(int a, int b) {
+  return (a + b);
+}
